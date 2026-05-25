@@ -158,7 +158,7 @@ body { font-family: 'Montserrat', sans-serif; background-color: #020617; }
                 <span class="text-xs font-bold tracking-widest uppercase text-amber-500">Real Results</span>
             </div>
             
-            <h2 class="text-4xl md:text-7xl font-extrabold tracking-tight mb-8 leading-[1.1] lg:font-[''Inter',_sans-serif'] lg:text-[60px] lg:tracking-tight lg:mb-[32px]">
+            <h2 class="md:text-7xl font-extrabold lg:font-[''Inter',_sans-serif'] lg:text-[60px] lg:tracking-tight lg:mb-[32px] md:text-[36px] md:tracking-tight md:mb-[32px] font-[''Inter',_sans-serif'] text-[30px] tracking-tight mb-[32px]">
                 Look at what happens when you <span class="text-transparent bg-clip-text bg-gradient-to-r from-amber-400 to-amber-600">stop guessing.</span>
             </h2>
             
@@ -254,64 +254,96 @@ body { font-family: 'Montserrat', sans-serif; background-color: #020617; }
 </section></div>
 
 <!-- Problem / Solution Section -->
-<div id="problem--solution-section" class="scroll-mt-20"><section id="problem" class="py-24 bg-slate-950">
+<div id="problem--solution-section" class="scroll-mt-20"><style>
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap');
+</style>
+
+<section id="problem" class="py-16 md:py-24 bg-slate-950 font-sans">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
         <!-- The Problem -->
-        <div class="mb-32">
-            <div class="text-center max-w-3xl mx-auto mb-16">
-                <h2 class="text-3xl md:text-5xl font-black text-white mb-6 lg:text-white lg:font-[''Inter',_sans-serif'] lg:text-[45px] lg:mb-[24px]">Stop Watching Your Savings Turn Into Dust-Covered Boxes</h2>
-                <p class="text-lg text-slate-400">When you buy the wrong products, you are not just losing money. You are losing your peace of mind. This "blind" approach is the fastest way to fail in Nigeria.</p>
+        <div class="mb-20 md:mb-32">
+            <div class="text-center max-w-3xl mx-auto mb-12 md:mb-16">
+                <h2 class="text-3xl md:text-5xl font-black text-white mb-6 leading-tight">
+                    Stop Watching Your Savings Turn Into Dust-Covered Boxes
+                </h2>
+                <p class="text-base md:text-lg text-slate-400 leading-relaxed">
+                    When you buy the wrong products, you are not just losing money. You are losing your peace of mind. This blind approach is the fastest way to fail in Nigeria.
+                </p>
             </div>
             
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-                <div class="p-10 rounded-[2rem] bg-slate-900 border border-red-500/20 relative group hover:border-red-500/40 transition-all">
-                    <div class="w-14 h-14 bg-red-500/10 text-red-500 rounded-2xl flex items-center justify-center mb-8 text-2xl font-black">!</div>
-                    <h3 class="text-xl font-bold text-white mb-4">Capital Gets Trapped</h3>
-                    <p class="text-slate-400 text-sm leading-relaxed">That money could have paid for rent or school fees. Instead, it is stuck in products nobody wants to buy.</p>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8">
+                <!-- Card 1 -->
+                <div class="p-6 md:p-10 rounded-[2rem] bg-slate-900 border border-red-500/20 relative group hover:border-red-500/40 transition-all">
+                    <div class="w-12 h-12 md:w-14 md:h-14 bg-red-500/10 text-red-500 rounded-2xl flex items-center justify-center mb-6 md:mb-8 text-xl md:text-2xl font-black">!</div>
+                    <h3 class="text-xl font-bold text-white mb-3">Capital Gets Trapped</h3>
+                    <p class="text-slate-400 text-sm md:text-base leading-relaxed">
+                        That money could have paid for rent or school fees. Instead, it is stuck in products nobody wants to buy.
+                    </p>
                 </div>
-                <div class="p-10 rounded-[2rem] bg-slate-900 border border-red-500/20 relative group hover:border-red-500/40 transition-all">
-                    <div class="w-14 h-14 bg-red-500/10 text-red-500 rounded-2xl flex items-center justify-center mb-8 text-2xl font-black">!</div>
-                    <h3 class="text-xl font-bold text-white mb-4">Months Are Wasted</h3>
-                    <p class="text-slate-400 text-sm leading-relaxed">You spend hours posting on WhatsApp only to get "how much" comments that never lead to a single sale.</p>
+                
+                <!-- Card 2 -->
+                <div class="p-6 md:p-10 rounded-[2rem] bg-slate-900 border border-red-500/20 relative group hover:border-red-500/40 transition-all">
+                    <div class="w-12 h-12 md:w-14 md:h-14 bg-red-500/10 text-red-500 rounded-2xl flex items-center justify-center mb-6 md:mb-8 text-xl md:text-2xl font-black">!</div>
+                    <h3 class="text-xl font-bold text-white mb-3">Months Are Wasted</h3>
+                    <p class="text-slate-400 text-sm md:text-base leading-relaxed">
+                        You spend hours posting on WhatsApp only to get "how much" comments that never lead to a single sale.
+                    </p>
                 </div>
-                <div class="p-10 rounded-[2rem] bg-slate-900 border border-red-500/20 relative group hover:border-red-500/40 transition-all">
-                    <div class="w-14 h-14 bg-red-500/10 text-red-500 rounded-2xl flex items-center justify-center mb-8 text-2xl font-black">!</div>
-                    <h3 class="text-xl font-bold text-white mb-4">The Sting of Shame</h3>
-                    <p class="text-slate-400 text-sm leading-relaxed">It is hard to face your family when they ask how your business is going and you have to hide that you are broke.</p>
+                
+                <!-- Card 3 -->
+                <div class="p-6 md:p-10 rounded-[2rem] bg-slate-900 border border-red-500/20 relative group hover:border-red-500/40 transition-all">
+                    <div class="w-12 h-12 md:w-14 md:h-14 bg-red-500/10 text-red-500 rounded-2xl flex items-center justify-center mb-6 md:mb-8 text-xl md:text-2xl font-black">!</div>
+                    <h3 class="text-xl font-bold text-white mb-3">The Sting of Shame</h3>
+                    <p class="text-slate-400 text-sm md:text-base leading-relaxed">
+                        It is hard to face your family when they ask how your business is going and you have to hide that you are broke.
+                    </p>
                 </div>
             </div>
         </div>
 
         <!-- The Solution -->
-        <div id="solution" class="bg-gradient-to-b from-amber-500/10 to-transparent rounded-[3rem] p-8 md:p-20 border border-amber-500/20">
-            <div class="text-center max-w-3xl mx-auto mb-16">
-                <h2 class="text-3xl md:text-5xl font-black text-white mb-6">The 'No-Guess' 3-Step Framework</h2>
-                <p class="text-lg text-slate-400">This is the secret to making N600,000 every month without spending a single kobo on bad inventory.</p>
+        <div id="solution" class="bg-gradient-to-b from-amber-500/10 to-transparent rounded-[2rem] md:rounded-[3rem] p-6 py-12 md:p-20 border border-amber-500/20">
+            <div class="text-center max-w-3xl mx-auto mb-12 md:mb-16">
+                <h2 class="text-3xl md:text-5xl font-black text-white mb-6 leading-tight">
+                    The 'No-Guess' 3-Step Framework
+                </h2>
+                <p class="text-base md:text-lg text-slate-400 leading-relaxed">
+                    This is the secret to making N600,000 every month without spending a single kobo on bad inventory.
+                </p>
             </div>
 
-            <div class="grid grid-cols-1 gap-8">
+            <div class="grid grid-cols-1 gap-6 md:gap-8">
                 <!-- Step 1 -->
-                <div class="flex flex-col md:flex-row items-center gap-10 bg-slate-900/50 p-10 rounded-[2.5rem] border border-amber-500/10 hover:border-amber-500/30 transition-all">
-                    <div class="flex-shrink-0 w-24 h-24 bg-gradient-to-br from-amber-400 to-amber-600 text-black rounded-3xl flex items-center justify-center text-4xl font-black shadow-xl shadow-amber-500/20">01</div>
-                    <div>
-                        <h3 class="text-2xl font-bold text-amber-400 mb-3">Spot the "Hungry" Market</h3>
-                        <p class="text-slate-300 text-lg leading-relaxed">Identify what people are already desperate to buy. You find the problems they are already complaining about. When you offer the solution, they gladly pay you.</p>
+                <div class="flex flex-col md:flex-row items-center md:items-start lg:items-center gap-6 md:gap-10 bg-slate-900/50 p-6 md:p-10 rounded-[2rem] md:rounded-[2.5rem] border border-amber-500/10 hover:border-amber-500/30 transition-all">
+                    <div class="flex-shrink-0 w-16 h-16 md:w-24 md:h-24 bg-gradient-to-br from-amber-400 to-amber-600 text-black rounded-2xl md:rounded-3xl flex items-center justify-center text-2xl md:text-4xl font-black shadow-xl shadow-amber-500/20">01</div>
+                    <div class="text-center md:text-left">
+                        <h3 class="text-xl md:text-2xl font-bold text-amber-400 mb-3">Spot the "Hungry" Market</h3>
+                        <p class="text-slate-300 text-base md:text-lg leading-relaxed">
+                            Identify what people are already desperate to buy. You find the problems they are already complaining about. When you offer the solution, they gladly pay you.
+                        </p>
                     </div>
                 </div>
+
                 <!-- Step 2 -->
-                <div class="flex flex-col md:flex-row items-center gap-10 bg-slate-900/50 p-10 rounded-[2.5rem] border border-amber-500/10 hover:border-amber-500/30 transition-all">
-                    <div class="flex-shrink-0 w-24 h-24 bg-gradient-to-br from-amber-400 to-amber-600 text-black rounded-3xl flex items-center justify-center text-4xl font-black shadow-xl shadow-amber-500/20">02</div>
-                    <div>
-                        <h3 class="text-2xl font-bold text-amber-400 mb-3">Verify the Demand for Free</h3>
-                        <p class="text-slate-300 text-lg leading-relaxed">Use my simple checking method to confirm people will actually buy. You do this before you ever spend money on inventory. This ensures you never get stuck with dead stock.</p>
+                <div class="flex flex-col md:flex-row items-center md:items-start lg:items-center gap-6 md:gap-10 bg-slate-900/50 p-6 md:p-10 rounded-[2rem] md:rounded-[2.5rem] border border-amber-500/10 hover:border-amber-500/30 transition-all">
+                    <div class="flex-shrink-0 w-16 h-16 md:w-24 md:h-24 bg-gradient-to-br from-amber-400 to-amber-600 text-black rounded-2xl md:rounded-3xl flex items-center justify-center text-2xl md:text-4xl font-black shadow-xl shadow-amber-500/20">02</div>
+                    <div class="text-center md:text-left">
+                        <h3 class="text-xl md:text-2xl font-bold text-amber-400 mb-3">Verify the Demand for Free</h3>
+                        <p class="text-slate-300 text-base md:text-lg leading-relaxed">
+                            Use my simple checking method to confirm people will actually buy. You do this before you ever spend money on inventory. This ensures you never get stuck with dead stock.
+                        </p>
                     </div>
                 </div>
+
                 <!-- Step 3 -->
-                <div class="flex flex-col md:flex-row items-center gap-10 bg-slate-900/50 p-10 rounded-[2.5rem] border border-amber-500/10 hover:border-amber-500/30 transition-all">
-                    <div class="flex-shrink-0 w-24 h-24 bg-gradient-to-br from-amber-400 to-amber-600 text-black rounded-3xl flex items-center justify-center text-4xl font-black shadow-xl shadow-amber-500/20">03</div>
-                    <div>
-                        <h3 class="text-2xl font-bold text-amber-400 mb-3">Pick the Winners</h3>
-                        <p class="text-slate-300 text-lg leading-relaxed">Select only the items that sell out in hours. This is how Aisha from Abuja made N600,000 in monthly profit from her living room.</p>
+                <div class="flex flex-col md:flex-row items-center md:items-start lg:items-center gap-6 md:gap-10 bg-slate-900/50 p-6 md:p-10 rounded-[2rem] md:rounded-[2.5rem] border border-amber-500/10 hover:border-amber-500/30 transition-all">
+                    <div class="flex-shrink-0 w-16 h-16 md:w-24 md:h-24 bg-gradient-to-br from-amber-400 to-amber-600 text-black rounded-2xl md:rounded-3xl flex items-center justify-center text-2xl md:text-4xl font-black shadow-xl shadow-amber-500/20">03</div>
+                    <div class="text-center md:text-left">
+                        <h3 class="text-xl md:text-2xl font-bold text-amber-400 mb-3">Pick the Winners</h3>
+                        <p class="text-slate-300 text-base md:text-lg leading-relaxed">
+                            Select only the items that sell out in hours. This is how Aisha from Abuja made N600,000 in monthly profit from her living room.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -330,7 +362,7 @@ body { font-family: 'Montserrat', sans-serif; background-color: #020617; }
         <div class="bg-slate-900 rounded-[3rem] p-8 md:p-16 border border-amber-500/30 shadow-2xl shadow-amber-500/10">
             <div class="text-center mb-12">
                 <span class="text-amber-500 font-black tracking-widest text-sm uppercase">Limited Time Free Access</span>
-                <h2 class="text-3xl md:text-5xl font-black text-white mt-4 mb-6 lg:text-white lg:font-[''Inter',_sans-serif'] lg:text-[48px] lg:mt-[16px] lg:mb-[24px]">
+                <h2 class="md:text-5xl font-black lg:text-white lg:font-[''Inter',_sans-serif'] lg:text-[48px] lg:mt-[16px] lg:mb-[24px] md:text-[30px] md:mt-[16px] md:mb-[24px] text-white font-[''Inter',_sans-serif'] text-[20px] mt-[16px] mb-[24px]">
                     Claim Your Path to a Consistent <span style="color: rgb(240, 176, 0);">N600,000 Monthly</span> Profit Today
                 </h2>
                 <p class="text-slate-400 text-lg leading-relaxed">
@@ -374,8 +406,8 @@ body { font-family: 'Montserrat', sans-serif; background-color: #020617; }
             <!-- Author Text -->
             <div class="w-full lg:w-1/2">
                 <h2 class="text-amber-500 font-black tracking-widest uppercase text-sm mb-4">Meet Your Mentor</h2>
-                <h3 class="text-4xl md:text-5xl font-black text-white mb-6">Osazee Kelvin King</h3>
-                <p class="text-xl font-bold text-amber-400 mb-8 leading-tight">Sales Funnel Specialist | Founder, FunnelCraft AI</p>
+                <h3 class="md:text-5xl font-black lg:text-[36px] lg:text-white lg:mb-[24px] md:text-[36px] md:mb-[24px] text-white font-[''Inter',_sans-serif'] text-[25px] mb-[24px]">Osazee Kelvin King</h3>
+                <p class="font-bold lg:text-[20px] lg:text-amber-400 lg:leading-tight lg:mb-[32px] md:text-[20px] md:text-amber-400 md:leading-tight md:mb-[32px] text-amber-400 font-[''Inter',_sans-serif'] text-[15px] leading-tight mb-[32px]">Sales Funnel Specialist | Founder, FunnelCraft AI</p>
                 <div class="space-y-6 text-slate-400 text-lg leading-relaxed">
                     <p>I'm A Badass Sales Funnel Specialist, Website Designer, Copywriter, and Facebook Ads Expert with over 10 years of digital marketing experience. I help coaches, service providers, and ecommerce business owners get more leads and sales.</p>
                     <p>This guide is the result of 7 years of testing and training over 30,000 people. I am sharing it for free because I want to help you avoid the "dead inventory" trap that crushes so many dreams in the Nigerian market.</p>
@@ -397,12 +429,12 @@ body { font-family: 'Montserrat', sans-serif; background-color: #020617; }
 <div id="final-cta-section" class="scroll-mt-20"><section id="final-cta" class="py-24 bg-gradient-to-br from-amber-400 to-amber-600 relative overflow-hidden">
     <div class="absolute inset-0 opacity-10">
         <svg class="h-full w-full" fill="none" viewBox="0 0 100 100" preserveAspectRatio="none">
-            <path d="M0 100L100 0M100 100L0 0" stroke="black" stroke-width="0.5"/>
+            <path d="M0 100L100 0M100 100L0 0" stroke="black" stroke-width="0.5"></path>
         </svg>
     </div>
     
     <div class="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-        <h2 class="text-4xl md:text-6xl font-black text-black mb-8 leading-tight">
+        <h2 class="md:text-6xl font-black lg:text-[36px] lg:text-black lg:leading-tight lg:mb-[32px] md:text-[36px] md:leading-tight md:mb-[32px] text-black font-[''Inter',_sans-serif'] text-[30px] leading-tight mb-[32px]">
             Ready to Build a Real Business?
         </h2>
         <p class="text-xl md:text-2xl text-black/80 mb-12 max-w-3xl mx-auto font-medium">
@@ -424,7 +456,7 @@ body { font-family: 'Montserrat', sans-serif; background-color: #020617; }
             <!-- Brand -->
             <div class="md:col-span-2">
                 <img class="h-10 w-auto mb-8 mx-auto md:mx-0 brightness-0 invert" src="https://jufjpzuzfftxyckfovmf.supabase.co/storage/v1/object/public/academy-attachments/Brand%20Elements/funnelcraftai%20logo%20dark.svg" alt="FunnelCraft AI Logo">
-                <p class="text-slate-500 text-lg max-w-md leading-relaxed">
+                <p class="max-w-md lg:text-[18px] lg:text-slate-500 lg:leading-relaxed md:text-[18px] md:text-slate-500 md:leading-relaxed text-slate-500 font-[''Inter',_sans-serif'] text-[15px] leading-relaxed">
                     Building high-performance sales funnels that turn strangers into buyers. We help you scale your revenue with predictable, no-guess systems.
                 </p>
             </div>
@@ -454,7 +486,7 @@ body { font-family: 'Montserrat', sans-serif; background-color: #020617; }
         
         <div class="mt-20 pt-8 border-t border-slate-900 flex flex-col md:flex-row justify-between items-center gap-6">
             <p class="text-slate-600 text-sm font-medium">
-                &copy; 2026 FunnelCraft AI. All Rights Reserved.
+                © 2026 FunnelCraft AI. All Rights Reserved.
             </p>
             <div class="flex flex-wrap justify-center gap-8 text-xs text-slate-600 font-bold uppercase tracking-widest">
                 <a href="#" class="hover:text-amber-500 transition-colors">Privacy Policy</a>
